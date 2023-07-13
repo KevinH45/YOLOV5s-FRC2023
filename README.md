@@ -1,5 +1,5 @@
 # YOLOV5s-FRC2023
-An object detecting system powered by YOLOV5 small for use in FRC'S Charge Up Game.
+An object detecting system powered by YOLOV5 small for use in FRC'S Charged Up Game.
 
 ## Implementation Details
 - Download the dataset here: https://universe.roboflow.com/michael-jansen/frc-charged-up-game-pieces/model/7
@@ -27,4 +27,4 @@ pip freeze
 set GIT_PYTHON_REFRESH=quiet
 py train.py --img 640 --epochs 3 --data customdata/data.yaml --weights yolov5s.pt --batch 8
 ```
-3) Find the results in runs/train/exp[EXP NUM]/best.pt
+3) Find the results in `runs/train/exp[EXP NUM]/best.pt`
