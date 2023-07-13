@@ -1,0 +1,13 @@
+train: ../customdata/train/images
+val: ../customdata/valid/images
+test: ../customdata/test/images
+
+nc: 3
+names: ['cone', 'cube', 'tipped_cone']
+
+roboflow:
+  workspace: project
+  project: frc-charged-up-game-pieces
+  version: 7
+  license: MIT
+  url: https://universe.roboflow.com/project/frc-charged-up-game-pieces/dataset/7
