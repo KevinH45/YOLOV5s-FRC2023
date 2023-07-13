@@ -5,7 +5,7 @@ An object detecting system powered by YOLOV5 small for use in FRC'S Charge Up Ga
 - Download the dataset here: https://universe.roboflow.com/michael-jansen/frc-charged-up-game-pieces/model/7
 - Get YOLOV5
 
-## To Run on Team Computer:
+## To Run on Team Computer (Windows 10):
 1) Move Cone Data Folder into yolov5-master folder (rename to customdata)
 ```
 In data.yaml:
